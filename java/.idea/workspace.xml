@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb06c4-1e39-4936-9c24-ff6519496300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode151_Reverse_Word_In_A_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dynammic_Programming/LeetCode152_Maximum_Product_Subarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/LeetCode713_Subarray_Product_Less_Than_K.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummaryRanges.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,30 +64,31 @@
     <session id="1274062062">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="284" />
+          <entry key="java" value="619" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="284" />
+          <entry key="JAVA" value="619" />
         </counts>
       </usages-collector>
     </session>
@@ -98,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode352_Data_Stream_As_Disjoint_Intervals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state>
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/SummaryRanges.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="32" />
+              <caret selection-end-line="38" selection-end-column="3" />
               <folding>
                 <element signature="e#0#1020#0" expanded="true" />
               </folding>
@@ -119,11 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode151_Reverse_Word_In_A_String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="75">
               <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding>
-                <element signature="e#446#454#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,6 +197,9 @@
         <option value="$PROJECT_DIR$/src/LeetCode352_Data_Stream_As_Disjoint_Intervals.java" />
         <option value="$PROJECT_DIR$/src/LeetCode151_Reverse_Word_In_A_String.java" />
         <option value="$PROJECT_DIR$/src/SummaryRanges.java" />
+        <option value="$PROJECT_DIR$/src/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode152_Maximum_Product_Subarray.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode713_Subarray_Product_Less_Than_K.java" />
         <option value="$PROJECT_DIR$/src/test.java" />
       </list>
     </option>
@@ -211,8 +211,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="314" />
-    <option name="y" value="23" />
+    <option name="x" value="196" />
+    <option name="y" value="128" />
     <option name="width" value="1440" />
     <option name="height" value="809" />
   </component>
@@ -245,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543905787073" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543949805196" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -322,12 +322,13 @@
       <workItem from="1543858783477" duration="138000" />
       <workItem from="1543860118540" duration="3585000" />
       <workItem from="1543879963639" duration="7055000" />
-      <workItem from="1543898321527" duration="1800000" />
+      <workItem from="1543898321527" duration="2009000" />
+      <workItem from="1543947444535" duration="753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102351000" />
+    <option name="totallyTimeSpent" value="103313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,11 +340,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="284" y="23" width="1440" height="809" extended-state="0" />
+    <frame x="196" y="128" width="1440" height="809" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76524955" visible="true" weight="0.19456366" />
-      <window_info id="Structure" order="1" sideWeight="0.23475046" side_tool="true" visible="true" weight="0.19456366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7656904" visible="true" weight="0.19742489" />
+      <window_info id="Structure" order="1" sideWeight="0.23430963" side_tool="true" visible="true" weight="0.19742489" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -351,7 +352,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996133" visible="true" weight="0.24546723" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996133" weight="0.24546723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30543932" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -656,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode565_Array_Nesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode364_Nested_List_Weight_SumII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -679,7 +673,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode352_Data_Stream_As_Disjoint_Intervals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state>
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
@@ -687,7 +681,7 @@
     <entry file="file://$PROJECT_DIR$/src/SummaryRanges.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="32" />
+          <caret selection-end-line="38" selection-end-column="3" />
           <folding>
             <element signature="e#0#1020#0" expanded="true" />
           </folding>
@@ -696,18 +690,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode151_Reverse_Word_In_A_String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="75">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="e#446#454#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Two_Pointers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Two_Pointers/LeetCode713_Subarray_Product_Less_Than_K.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode565_Array_Nesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dynammic_Programming/LeetCode152_Maximum_Product_Subarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
