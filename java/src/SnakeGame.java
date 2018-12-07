@@ -40,6 +40,8 @@ class SnakeGame {
 
             this.body.getLast().row = -1;
             this.body.getLast().col = -1;
+            //Be careful that if move the last point
+            // of body should not be counted when passing the collide test
             if(isCollide(row,col))
                 return false;
             int newRow = row;
