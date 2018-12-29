@@ -15,4 +15,8 @@ public class LeetCode278_First_Bad_Version {
         }
         return right;
     }
+
+    private boolean isBadVersion(int mid) {
+        return true;
+    }
 }
