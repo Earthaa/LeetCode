@@ -12,7 +12,11 @@ public class LeetCode930_Binary_Subarrays_With_Sum {
             ans += count.getOrDefault(x, 0);
             count.put(x+S, count.getOrDefault(x+S, 0) + 1);
         }
-
+        Map<String,String> tmp = new HashMap<>();
+        tmp.entrySet()
         return ans;
+        Map.Entry<String,String> tms;
+        List<String> t = new LinkedList<>();
+        t.s
     }
 }
