@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb06c4-1e39-4936-9c24-ff6519496300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graph/LeetCode207_Course_Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/LeetCode106_Construct_Binary_Tree_From_Inorder_and_Postorder_Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/LeetCode129_Sum_Root_To_Leaf_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design/wordDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/LeetCode209_Minimum_Size_Subarray_Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,23 +79,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="54" />
+          <entry key="java" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="2689" />
+          <entry key="java" value="2691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2689" />
+          <entry key="JAVA" value="2691" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -104,11 +103,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Graph/LeetCode207_Course_Schedule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="785">
+              <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="77" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Design/wordDictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bitwise/LeetCode260_Single_Number_III.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Two_Pointers/LeetCode209_Minimum_Size_Subarray_Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -138,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/NestedInteger.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode339_Nested_List_Weight_Sum.java" />
         <option value="$PROJECT_DIR$/src/LeetCode364_Nested_List_Weight_SumII.java" />
         <option value="$PROJECT_DIR$/src/LeetCode565_Array_Nesting.java" />
         <option value="$PROJECT_DIR$/src/LeetCode151_Reverse_Word_In_A_String.java" />
@@ -189,6 +222,8 @@
         <option value="$PROJECT_DIR$/src/Tree/LeetCode129_Sum_Root_To_Leaf_Numbers.java" />
         <option value="$PROJECT_DIR$/src/Tree/LeetCode106_Construct_Binary_Tree_From_Inorder_and_Postorder_Traversal.java" />
         <option value="$PROJECT_DIR$/src/Graph/LeetCode207_Course_Schedule.java" />
+        <option value="$PROJECT_DIR$/src/Design/wordDictionary.java" />
+        <option value="$PROJECT_DIR$/src/Two_Pointers/LeetCode209_Minimum_Size_Subarray_Sum.java" />
       </list>
     </option>
   </component>
@@ -199,8 +234,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="100" />
-    <option name="y" value="36" />
+    <option name="x" value="412" />
+    <option name="y" value="126" />
     <option name="width" value="1274" />
     <option name="height" value="799" />
   </component>
@@ -226,6 +261,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Bitwise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Two_Pointers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547323453875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547332950428" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -352,12 +405,12 @@
       <workItem from="1547008755010" duration="886000" />
       <workItem from="1547061149030" duration="741000" />
       <workItem from="1547168657272" duration="697000" />
-      <workItem from="1547321575828" duration="580000" />
+      <workItem from="1547321575828" duration="1217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132216000" />
+    <option name="totallyTimeSpent" value="132853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,7 +422,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="100" y="36" width="1274" height="799" extended-state="0" />
+    <frame x="655" y="142" width="1274" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7340877" visible="true" weight="0.25974026" />
@@ -459,20 +512,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode565_Array_Nesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dynammic_Programming/LeetCode152_Maximum_Product_Subarray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -571,13 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bitwise/LeetCode260_Single_Number_III.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -824,8 +856,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Graph/LeetCode207_Course_Schedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="785">
+          <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="77" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design/wordDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bitwise/LeetCode260_Single_Number_III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Two_Pointers/LeetCode209_Minimum_Size_Subarray_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
