@@ -1,7 +1,6 @@
-import java.util.*;
-public class LeetCode352_Data_Stream_As_Disjoint_Intervals {
+package Design;
 
-}
+import java.util.*;
 
 class SummaryRanges {
     TreeSet<Interval> mySet;
@@ -17,6 +16,7 @@ class SummaryRanges {
     }
 
     public void addNum(int val) {
+
         Interval newInterval = new Interval(val,val);
         Interval floor = mySet.floor(newInterval);
         Interval ceiling = mySet.ceiling(newInterval);
@@ -43,16 +43,16 @@ class SummaryRanges {
         if(flag == false )
             mySet.add(newInterval);
 
-    }
 
+    }
     public List<Interval> getIntervals() {
         return new LinkedList<Interval>(mySet);
     }
 }
 
 class Interval {
-      int start;
-      int end;
-      Interval() { start = 0; end = 0; }
-      Interval(int s, int e) { start = s; end = e; }
+    int start;
+    int end;
+    Interval() { start = 0; end = 0; }
+    Interval(int s, int e) { start = s; end = e; }
 }
