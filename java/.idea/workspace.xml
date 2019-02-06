@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb06c4-1e39-4936-9c24-ff6519496300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode252_Meeting_Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode253_Meeting_Room_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode496_Next_Greater_Element_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode556_Next_Permutation_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode352_Data_Stream_As_Disjoint_Intervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design/LeetCode352_Data_Stream_As_Disjoint_Intervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SummaryRanges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SummaryRanges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,39 +64,39 @@
     <session id="1274062062">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
-          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="6" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="66" />
+          <entry key="java" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="66" />
+          <entry key="JAVA" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="2825" />
+          <entry key="java" value="2994" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2825" />
+          <entry key="JAVA" value="2994" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -106,28 +104,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Design/LeetCode352_Data_Stream_As_Disjoint_Intervals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode253_Meeting_Room_II.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Interval.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,14 +114,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode556_Next_Permutation_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode496_Next_Greater_Element_I.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#349#366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode252_Meeting_Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="60">
               <caret line="5" column="45" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode152_Maximum_Product_Subarray.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode713_Subarray_Product_Less_Than_K.java" />
         <option value="$PROJECT_DIR$/src/LeetCode560_Subarray_Sum_Equals_K.java" />
         <option value="$PROJECT_DIR$/src/SnakeGame.java" />
         <option value="$PROJECT_DIR$/src/Two_Pointers/LeetCode259_3Sum_Smaller.java" />
@@ -201,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/Greedy/LeetCode649_Dota2_Senate.java" />
         <option value="$PROJECT_DIR$/src/LeetCode484_Find_Permutation.java" />
         <option value="$PROJECT_DIR$/src/Binary_Search/LeetCode278_First_Bad_Version.java" />
-        <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/Design/LFUCache.java" />
         <option value="$PROJECT_DIR$/src/Design/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/LeetCode498_Diagonal_Traverse.java" />
@@ -227,6 +228,9 @@
         <option value="$PROJECT_DIR$/src/LeetCode252_Meeting_Room.java" />
         <option value="$PROJECT_DIR$/src/Design/LeetCode352_Data_Stream_As_Disjoint_Intervals.java" />
         <option value="$PROJECT_DIR$/src/LeetCode253_Meeting_Room_II.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode556_Next_Permutation_II.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode496_Next_Greater_Element_I.java" />
       </list>
     </option>
   </component>
@@ -237,8 +241,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="23" />
+    <option name="x" value="66" />
+    <option name="y" value="98" />
     <option name="width" value="1274" />
     <option name="height" value="799" />
   </component>
@@ -250,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,13 +270,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547616697151" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549412568421" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,12 +396,13 @@
       <workItem from="1547168657272" duration="697000" />
       <workItem from="1547321575828" duration="1727000" />
       <workItem from="1547520674326" duration="249000" />
-      <workItem from="1547611724738" duration="2138000" />
+      <workItem from="1547611724738" duration="2217000" />
+      <workItem from="1549402670394" duration="1115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135750000" />
+    <option name="totallyTimeSpent" value="136944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,11 +414,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="23" width="1274" height="799" extended-state="0" />
+    <frame x="66" y="98" width="1274" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73125887" visible="true" weight="0.26785713" />
-      <window_info id="Structure" order="1" sideWeight="0.26874116" side_tool="true" visible="true" weight="0.26785713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7298444" visible="true" weight="0.27191558" />
+      <window_info id="Structure" order="1" sideWeight="0.27015558" side_tool="true" visible="true" weight="0.27191558" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -499,20 +504,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Binary_Search/LeetCode153_Find_Minimum_inRotated_Sorted_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" selection-start-line="4" selection-start-column="7" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode560_Subarray_Sum_Equals_K.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/LeetCode300_Longest_Increasing_Subsequence_BS.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -608,10 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Search/LeetCode475_Heaters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -703,9 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding>
-            <element signature="e#368#385#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,12 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,20 +797,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="68" column="15" selection-start-line="68" selection-start-column="15" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode252_Meeting_Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode252_Meeting_Room.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode253_Meeting_Room_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="45" />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Design/LeetCode352_Data_Stream_As_Disjoint_Intervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -854,21 +835,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Design/LeetCode352_Data_Stream_As_Disjoint_Intervals.java">
+    <entry file="file://$PROJECT_DIR$/src/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="440">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode253_Meeting_Room_II.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode556_Next_Permutation_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="780">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode496_Next_Greater_Element_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#349#366#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

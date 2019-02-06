@@ -16,7 +16,11 @@ public class test {
         System.out.println(t.get(3));
 
         System.out.println(t.get(4));
-
+        char a = 'a';
+        char b = 'b';
+        String str = Character.toString(a) +
+        long ttt = Integer.parseInt(str);
+        Integer.parse
 
     }
 }
