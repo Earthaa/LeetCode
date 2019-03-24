@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb06c4-1e39-4936-9c24-ff6519496300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dynammic_Programming/LeetCode1000_Minimum_Cost_to_Merge_Stones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greedy/LeetCode995_Minimum_Number_Of_K_Consecutive_Bit_Flips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode975_Odd_Even_Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/LeetCode654_Maximum_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Pointers/LeetCode904_Fruit_Into_baskets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Binary_Search/LeetCode1014_Capacity_To_Ship_Packages_Within_D_Days.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/LeetCode996_Number_of_Squarful_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Greedy/LeetCode1021_Best_Sightseeing_Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode1015_Numbers_With_Repeated_Digits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Design/LFUCache$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Design/LFUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/Interval.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/LeetCode352_Data_Stream_As_Disjoint_Intervals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/LeetCode930_Binary_Subarrays_With_Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/SummaryRanges$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/SummaryRanges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dynammic_Programming/LeetCode120_Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dynammic_Programming/LeetCode120_Triangle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,10 +65,10 @@
     <session id="1274062062">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="6" />
+          <entry key="project.open.time.11" value="8" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="11" />
@@ -86,30 +76,31 @@
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="87" />
+          <entry key="java" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="87" />
+          <entry key="JAVA" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="3707" />
+          <entry key="java" value="3751" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3707" />
+          <entry key="JAVA" value="3751" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -117,11 +108,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Two_Pointers/LeetCode904_Fruit_Into_baskets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="720">
+              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Graph/LeetCode996_Number_of_Squarful_Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Greedy/LeetCode1021_Best_Sightseeing_Pair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Binary_Search/LeetCode1014_Capacity_To_Ship_Packages_Within_D_Days.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode1015_Numbers_With_Repeated_Digits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -152,10 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode289_Game_of_Life.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode352_Data_Stream_As_Disjoint_Intervals.java" />
-        <option value="$PROJECT_DIR$/src/Dynammic_Programming/LeetCode132_Palindrome_PartitioningII.java" />
-        <option value="$PROJECT_DIR$/src/Dynammic_Programming/LeetCode87_Scramble_String.java" />
         <option value="$PROJECT_DIR$/src/Two_Pointers/LeetCode487_Max_Consecutive_Ones_II.java" />
         <option value="$PROJECT_DIR$/src/LeetCode494_Target_Sum.java" />
         <option value="$PROJECT_DIR$/src/LeetCode495_Teemo_Attacking.java" />
@@ -203,6 +238,10 @@
         <option value="$PROJECT_DIR$/src/Dynammic_Programming/LeetCode120_Triangle.java" />
         <option value="$PROJECT_DIR$/src/Greedy/LeetCode995_Minimum_Number_Of_K_Consecutive_Bit_Flips.java" />
         <option value="$PROJECT_DIR$/src/Two_Pointers/LeetCode904_Fruit_Into_baskets.java" />
+        <option value="$PROJECT_DIR$/src/Graph/LeetCode996_Number_of_Squarful_Arrays.java" />
+        <option value="$PROJECT_DIR$/src/Greedy/LeetCode1021_Best_Sightseeing_Pair.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Search/LeetCode1014_Capacity_To_Ship_Packages_Within_D_Days.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode1015_Numbers_With_Repeated_Digits.java" />
       </list>
     </option>
   </component>
@@ -213,8 +252,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="110" />
-    <option name="y" value="73" />
+    <option name="x" value="-134" />
+    <option name="y" value="231" />
     <option name="width" value="1438" />
     <option name="height" value="799" />
   </component>
@@ -226,8 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,23 +277,19 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Two_Pointers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="meeting&#9;FILE&#9;file:///Users/earthaa/Desktop/LeetCode刷题/LeetCode/java/src/LeetCode253_Meeting_Room_II.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552613160955" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553461211334" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -406,12 +439,15 @@
       <workItem from="1552276907968" duration="215000" />
       <workItem from="1552346942947" duration="1369000" />
       <workItem from="1552518100149" duration="3363000" />
-      <workItem from="1552610795775" duration="1092000" />
+      <workItem from="1552610795775" duration="2381000" />
+      <workItem from="1552788856996" duration="32000" />
+      <workItem from="1553457838526" duration="382000" />
+      <workItem from="1553469848735" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145985000" />
+    <option name="totallyTimeSpent" value="147833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,11 +459,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="110" y="73" width="1438" height="799" extended-state="0" />
+    <frame x="-134" y="529" width="1438" height="799" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7128713" visible="true" weight="0.22277936" />
-      <window_info id="Structure" order="1" sideWeight="0.28712872" side_tool="true" visible="true" weight="0.22277936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.708628" visible="true" weight="0.23137535" />
+      <window_info id="Structure" order="1" sideWeight="0.291372" side_tool="true" visible="true" weight="0.23137535" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -513,41 +549,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Design/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MountainHighArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode498_Diagonal_Traverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode594_Longest_Harmonious_Subsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode598_Range_Addition_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/numberToWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19">
@@ -813,10 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,8 +850,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Two_Pointers/LeetCode904_Fruit_Into_baskets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="720">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/LeetCode996_Number_of_Squarful_Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Greedy/LeetCode1021_Best_Sightseeing_Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search/LeetCode1014_Capacity_To_Ship_Packages_Within_D_Days.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode1015_Numbers_With_Repeated_Digits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
         </state>
       </provider>
     </entry>
