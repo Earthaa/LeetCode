@@ -1,5 +1,7 @@
 package Binary_Search;
 
+import java.util.HashMap;
+
 public class LeetCode1014_Capacity_To_Ship_Packages_Within_D_Days {
     public int shipWithinDays(int[] weights, int D) {
         int totalWeight = 0;
@@ -8,6 +10,7 @@ public class LeetCode1014_Capacity_To_Ship_Packages_Within_D_Days {
             totalWeight += weights[i];
             maxNum = Math.max(maxNum,weights[i]);
         }
+        HashMap
         int right = totalWeight;
         int left = maxNum;
         while(left != right){
