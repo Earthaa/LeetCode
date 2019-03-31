@@ -13,7 +13,12 @@ public class LeetCode269_Alien_Dictionary {
     }
     Map<Character,Node> mymap;
     public String alienOrder(String[] words) {
+        int[] visited = new int[26];
         this.mymap = new HashMap<>();
+        for(String each:words){
+            for(int i = 0; i < each.length();i++)
+                visited[each.charAt(i) - 'a'] = 1;
+        }
         for(int i = 0; i < words.length - 1;i++){
             int j = i + 1;
             String prevWord = words[i];
@@ -21,6 +26,10 @@ public class LeetCode269_Alien_Dictionary {
             for(int k = 0; k < Math.min(prevWord.length(),nextWord.length());k++){
                 char prev = prevWord.charAt(k);
                 char next = nextWord.charAt(k);
+                if(!this.mymap.containsKey(prev)){
+                    Node node = new Node(prev);
+                    this.mymap.put(prev,node);
+                }
                 if(prev != next){
                     addEdge(prev,next);
                     break;
@@ -32,12 +41,13 @@ public class LeetCode269_Alien_Dictionary {
             char cur = i;
             if(this.mymap.containsKey(cur)){
                 Node curNode = this.mymap.get(cur);
-                if(curNode.in == 0)
+                if(curNode.in == 0){
                     st.push(cur);
+                    visited[cur - 'a'] = 0;
+                }
             }
         }
-        if(st.isEmpty())
-            return "";
+
         // System.out.println("test");
         StringBuffer sb = new StringBuffer();
         while(!st.isEmpty()){
@@ -49,15 +59,21 @@ public class LeetCode269_Alien_Dictionary {
                 if (curNode.next[next - 'a'] == 1) {
                     Node nextNode = this.mymap.get(next);
                     nextNode.in --;
-                    if (nextNode.in == 0)
+                    if (nextNode.in == 0){
                         st.push(next);
+                        visited[next - 'a'] = 0;
+                    }
                 }
             }
             this.mymap.remove(cur);
         }
-        System.out.println(sb.toString());
+
         if(mymap.size() != 0)
             return "";
+        for(char c = 'a';c <= 'z';c++){
+            if(visited[c - 'a'] == 1)
+                sb.append(c);
+        }
         return sb.toString();
     }
 
