@@ -1,3 +1,4 @@
+import java.util.*;
 public class LeetCode594_Longest_Harmonious_Subsequence {
     public int findLHS(int[] nums) {
         if(nums.length == 0)

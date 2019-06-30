@@ -12,7 +12,6 @@ class RandomizedSet {
         indToVal = new HashMap<>();
         total = 0;
         LinkedHashSet<Integer> t;
-        t.it
     }
 
     /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
